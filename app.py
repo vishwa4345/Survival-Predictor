@@ -7,7 +7,9 @@ with open("logistic_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Title
-st.title("Titanic Survival Prediction App")
+st.title("Titanic Survival Prediction")
+
+st.write("Developed by Vishwa Hiremath")
 
 st.write("Enter passenger details to predict survival.")
 
