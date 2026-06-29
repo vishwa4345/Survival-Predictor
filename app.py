@@ -25,7 +25,7 @@ st.sidebar.title("📌 About Project")
 st.sidebar.info("""
 **Titanic Survival Prediction**
 
-This application Developed by "VISHWA HIREMATH", predicts whether a passenger is likely to survive the Titanic disaster using a trained **Logistic Regression** model.
+This application predicts whether a passenger is likely to survive the Titanic disaster using a trained **Logistic Regression** model.
 
 **Technologies Used**
 - Python
@@ -42,10 +42,6 @@ Vishwa Hiremath
 # Main Title
 # -------------------------------
 st.title("🚢 Titanic Survival Prediction")
-
-st.write(""
-by VISHWA HIREMATH.
-"")
 
 st.write("""
 Enter the passenger details below and click **Predict** to estimate the survival probability.
